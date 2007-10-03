@@ -1,0 +1,23 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2035
+
+******************************************************************
+NB.  I accidentally uploaded this script twice, this instance needs to be deleted,
+         and the copy listed under Vim 7.0 should be kept.
+         I just don't know how to do this ... sorry.
+******************************************************************
+
+
+Description:
+I don't know for sure that something like this does not already exist in Vim, but if it does, I can't find it.
+
+I recall Cream having this kind of functionallity mapped to <F6>,
+so to maintain consistency I've kept the convention.
+
+This uses the current value of &cms / &commentstring to comment and uncomment code.
+It works for ranges selected in Visual mode, or for the current line in all modes.
+NB. Comment strings may not include '@' or '+'
+(I don't know of any languages that use these characters).
+
+Help:
+Use <F6> to comment, and <S-F6> to uncomment
+
